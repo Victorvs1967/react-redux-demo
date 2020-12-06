@@ -8,9 +8,10 @@ const NewEggContainer = ({ numOfEggs, buyEgg }) => {
     return (
         <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
             <h2>Number of Eggs - {numOfEggs}</h2>
-            <input type="text" value={number} onChange={event => setNumber(event.target.value)} />
+            <input type="text" value={number} onChange={event => setNumber(event.target.value)}
+                style={{padding: '10px', borderRadius: '1.5rem', border: 'solid 1px grey', textAlign: 'center', fontSize: '16px'}} />
             <button onClick={() => buyEgg(number)}
-                style={{padding: '10px', borderRadius: '16px', border: 'none', fontSize: '16px'}}>
+                style={{padding: '10px', borderRadius: '1.5rem', border: 'none', fontSize: '16px'}}>
                 Buy {number} Eggs
             </button>
         </div>

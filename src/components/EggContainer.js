@@ -6,8 +6,8 @@ const EggContainer = ({ numOfEggs, buyEgg }) => (
     <div>
         <h2>Number of Eggs - {numOfEggs}</h2>
         <button onClick={buyEgg}
-                style={{padding: '10px', borderRadius: '16px', border: 'none', fontSize: '16px'}}>
-            <strong>Buy Egg</strong>
+                style={{padding: '10px', borderRadius: '1.5rem', border: 'none', fontSize: '16px'}}>
+            Buy Egg
         </button>
     </div>
 );

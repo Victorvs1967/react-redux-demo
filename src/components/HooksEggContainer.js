@@ -9,7 +9,7 @@ const HooksEggContainer = () => {
         <div>
             <h2>Num of Hook Eggs - {numOfEggs}</h2>
             <button onClick={() => dispatch(buyEgg())}
-                style={{padding: '10px', borderRadius: '16px', border: 'none', fontSize: '16px'}}>
+                style={{padding: '10px', borderRadius: '1.5rem', border: 'none', fontSize: '16px'}}>
                 Buy Egg
             </button>
         </div>
